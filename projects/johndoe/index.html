@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="project #1 : Portfolio" />
+	<meta name="author" content="Michail K." />
+	<link rel="stylesheet" href="styles.css" as="style" onload="this.rel='stylesheet'">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/d64761749b.js" crossorigin="anonymous"></script>
+	<title>Portfolio</title>
+</head>
+<body>
+	<!-- navigation menu -->
+		<div class="main-nav__wrapper">
+
+			<div class="initials">
+				<span>M.K.</span>
+			</div>
+
+			<div class="main-nav">
+				<ul class="main-nav__menu">
+					<li><a href="#">About me</a></li>
+					<li><a href="#">Skills</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact me</a></li>
+					<li class="stick"></li>
+				</ul>
+				<ul class="soc-networks">
+					<li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					<li class="linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+	<!-- main part ('about' section) -->
+	<div class="main-section__about-wrapper">
+
+		<!-- <div class="circles">
+			<img src="graphic/koła_01.png" alt="circle">
+			<img src="graphic/koła_02.png" alt="circle">
+			<img src="graphic/koła_03.png" alt="circle">
+			<img src="graphic/koła_01.png" alt="circle">
+		</div> -->
+
+		<div class="mini-desc__wrapper">
+			<div class="mini-desc">
+				<span class="desc-title">&#47;&#47;Hi, My name is John Doe</span>
+				<span class="under-desc">Software Engineer</span>
+				<p>Passionate Techy and Tech Author <br/> with 3 years of experience within the field.</p>
+				<ul class="my-works">
+					<li>See my works</li>
+					<li><a href=""><img src="graphic/bit_bucket_icon.png" alt="bitbucket"></a></li>
+					<li><a href=""><img src="graphic/dev_icon.png" alt="my works"></a></li>
+				</ul>
+			</div>
+			<div class="my-photo">
+
+				<img src="graphic/proger1.png" alt="my-photo">
+
+			</div>
+		</div>
+
+		<div class="photo-contact">
+			<div class="pc_contact">
+				<span class="desc-title">&#47;&#47; I am a freelancer</span>
+				<p>Contact me if you want to work with me</p>
+				<a class="link-button" href="">Hire me</a>
+				<a class="link-button" href="">Download CV</a>
+			</div>
+		</div>
+
+		<div class="about_and_skills">
+			<div class="about-section">
+				<div class="about-section__general-info">
+					<span class="desc-title">&#47;&#47;About me</span>
+					<span class="under-desc">All about Techy</span>
+					<p>Lorem ipsum dolor sit amet, <br/><br/>
+					consectetur adipiscing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. Ut enim ad
+					minim veniam, quis nostrud exercitation ullamco laboris nisi
+					ut aliquip ex ea commodo consequat. <br/><br/>
+					Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur.</p>
+					<span>My interests</span>
+					<ul class="interests">
+						<li>music</li>
+						<li>kitesurfing</li>
+						<li>cycling</li>
+					</ul>
+				</div>
+				<div class="finished-course">
+					<p>Ukończyłem kurs Easy Code</p>
+					<a href=""><img src="graphic/easy_code_button.png" alt="easy-code"></a>
+				</div>
+			</div>
+			<div class="skills">
+				<span class="desc-title">&#47;&#47;Skills</span>
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit
+				esse cillum dolore eu fugiat nulla pariatur.</p>
+				<div class="my-skills-progress">
+					<div class="skill-bar php"><div class="percents">PHP 100%</div></div>
+					<div class="skill-bar js"><div class="percents">JS 90%</div></div>
+					<div class="skill-bar html"><div class="percents">HTML 90%</div></div>
+					<div class="skill-bar nodejs"><div class="percents">NODEJS 60%</div></div>
+					<div class="skill-bar css"><div class="percents">CSS 90%</div></div>
+					<div class="skill-bar go"><div class="percents">GO 60%</div></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- 'tools' section -->
+	<div class="main-section__tools">
+		<span class="desc-title">&#47;&#47;Tools</span>
+		<span class="under-desc">My essentials</span>
+		<div class="tools-technologies">
+			<div>
+				<img src="graphic/tools/react.png" alt="react">
+				<span>React<br/>16.6.3</span>
+			</div>
+			<div>
+				<img src="graphic/tools/webpack.png" alt="webpack">
+				<span>Webpack<br/>4.19.1</span>
+			</div>
+			<div>
+				<img src="graphic/tools/express.png" alt="express">
+				<span>Express<br/>4.16.4</span>
+			</div>
+			<div class="styled-tool">
+				<img src="graphic/tools/styled2.png" alt="styled">
+				<span>Styled components<br/>4.16.4</span>
+			</div>
+			<div>
+				<img src="graphic/tools/redux.png" alt="redux">
+				<span>Redux<br/>4.0.1</span>
+			</div>
+			<div>
+				<img src="graphic/tools/flexbox.png" alt="Flexbox">
+				<span>Flexbox<br/>4.0.1</span>
+			</div>
+			<div>
+				<img src="graphic/tools/tool1.png" alt="program v1">
+				<span>Program<br/>5.2.1</span>
+			</div>
+			<div>
+				<img src="graphic/tools/tool1.png" alt="program v2">
+				<span>Program<br/>5.2.2</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- portfolio section -->
+	<div class="my-portfolio__wrapper">
+		<div class="my-portfolio-works">
+			<span class="desc-title">&#47;&#47;My works</span>
+			<span class="under-desc">Portfolio</span>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+			nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+			reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+			pariatur.</p>
+			<div class="my-portfolio-works-screens">
+				<div class="miniature">
+					<div class="miniature_image">
+						<img src="graphic/portfolio_case_01.png" alt="01">
+					</div>
+					<div class="my-work-links">
+						<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+						<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+					</div>
+					<div class="my-work_hover">
+						<span class="desc-title">Office software</span>
+						<p>- task management</p>
+						<div class="project-tools">
+							<p>Tools: React / Redux /</p>
+							<p>Program 01 / Flexbox</p>
+						</div>
+						<div class="my-work-links">
+							<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+							<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+						</div>
+					</div>
+				</div>
+				<div class="miniature">
+					<div class="miniature_image">
+						<img src="graphic/portfolio_case_02.png" alt="02">
+					</div>
+					<div class="my-work-links">
+						<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+						<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+					</div>
+					<div class="my-work_hover">
+						<span class="desc-title">Office software</span>
+						<p>- task management</p>
+						<div class="project-tools">
+							<p>Tools: React / Redux /</p>
+							<p>Program 01 / Flexbox</p>
+						</div>
+						<div class="my-work-links">
+							<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+							<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+						</div>
+					</div>
+				</div>
+				<div class="miniature">
+					<div class="miniature_image">
+						<img src="graphic/portfolio_case_03.png" alt="03">
+					</div>
+					<div class="my-work-links">
+						<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+						<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+					</div>
+					<div class="my-work_hover">
+						<span class="desc-title">Office software</span>
+						<p>- task management</p>
+						<div class="project-tools">
+							<p>Tools: React / Redux /</p>
+							<p>Program 01 / Flexbox</p>
+						</div>
+						<div class="my-work-links">
+							<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+							<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+						</div>
+					</div>
+				</div>
+				<div class="miniature">
+					<div class="miniature_image">
+						<img src="graphic/portfolio_case_04.png" alt="04">
+					</div>
+					<div class="my-work-links">
+						<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+						<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+					</div>
+					<div class="my-work_hover">
+						<span class="desc-title">Office software</span>
+						<p>- task management</p>
+						<div class="project-tools">
+							<p>Tools: React / Redux /</p>
+							<p>Program 01 / Flexbox</p>
+						</div>
+						<div class="my-work-links">
+							<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+							<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+						</div>
+					</div>
+				</div>
+				<div class="miniature">
+					<div class="miniature_image">
+						<img src="graphic/portfolio_case_05.png" alt="05">
+					</div>
+					<div class="my-work-links">
+						<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+						<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+					</div>
+					<div class="my-work_hover">
+						<span class="desc-title">Office software</span>
+						<p>- task management</p>
+						<div class="project-tools">
+							<p>Tools: React / Redux /</p>
+							<p>Program 01 / Flexbox</p>
+						</div>
+						<div class="my-work-links">
+							<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+							<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+						</div>
+					</div>
+				</div>
+				<div class="miniature">
+					<div class="miniature_image">
+						<img src="graphic/portfolio_case_06.png" alt="06">
+					</div>
+					<div class="my-work-links">
+						<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+						<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+					</div>
+					<div class="my-work_hover">
+						<span class="desc-title">Office software</span>
+						<p>- task management</p>
+						<div class="project-tools">
+							<p>Tools: React / Redux /</p>
+							<p>Program 01 / Flexbox</p>
+						</div>
+						<div class="my-work-links">
+							<a href="#"><img src="graphic/bit_bucket_icon.png" alt="dev"></a>
+							<a href="#"><img src="graphic/external_link_icon.png" alt="link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Blog posts -->
+	<div class="blog__wrapper">
+		<div class="blog-posts">
+			<span class="desc-title">&#47;&#47;Blog posts</span>
+			<span class="under-desc">Hints and tips</span>
+			<div class="post">
+				<div class="blog-image">
+					<img src="graphic/post1.png" alt="post1">
+				</div>
+				<div class="post-description">
+					<div class="post-description__top-part">
+						<div class="post-title">
+							<span class="desc-title">&#47;&#47;Title 01</span>
+			        		<span class="under-desc">Secondary title</span>
+						</div>
+						<div class="post-autor-data">
+							<span>author, <time>01.09.2020</time></span>
+						</div>
+			        </div>
+			        <div class="post-description__bottom-part">
+			        	<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+						dolore eu fugiat nulla pariatur.</p>
+						<div class="read-more">
+							<a href="#">Read more</a>
+						</div>
+			        </div>
+				</div>
+			</div>
+			<div class="post">
+				<div class="blog-image">
+					<img src="graphic/post2.png" alt="post1">
+				</div>
+				<div class="post-description">
+					<div class="post-description__top-part">
+						<div class="post-title">
+							<span class="desc-title">&#47;&#47;Title 01</span>
+			        		<span class="under-desc">Secondary title</span>
+						</div>
+						<div class="post-autor-data">
+							<span>author, <time>01.09.2020</time></span>
+						</div>
+			        </div>
+			        <div class="post-description__bottom-part">
+			        	<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+						dolore eu fugiat nulla pariatur.</p>
+						<div class="read-more">
+							<a href="#">Read more</a>
+						</div>
+			        </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="footer__wrapper">
+		<div class="contact-section">
+			<div class="contact-section__form">
+				<div class="csf-form">
+				<span class="desc-title">&#47;&#47;Contact</span>
+				<p>If you are willing to work with me, contact me. I can join your
+				conference to serve you with my engeneering experience.</p>
+				<div class="contact-section__form-left">
+				<form action="#">
+					<input type="text" placeholder="Your e-mail" />
+					<input type="text" placeholder="Your name" />
+					<textarea name="message_field" id="message_field" cols="30" rows="7" placeholder="How can I help you?
+Please, put here your 
+message/request."></textarea>
+				</form>
+				</div>
+				</div>
+				<div class="form-button">
+					<button form="message_field">Send</button>
+				</div>
+			</div>
+			<div class="contact-section__media">
+				<div class="phone-mail">
+					<i class="fas fa-mail-bulk"></i>
+					<div class="phone-mail-text">
+						<span>hudebyss@gmail.com</span></br>
+						<span>+48 123 654 789</span>
+					</div>
+				</div>
+				<div class="author-avatar">
+					<img src="graphic/footer-image.png" alt="author-photo" />
+				</div>
+				<div class="add-info">
+					<p>autor: John Doe</br>
+					username: @johndoe</br>
+					description: University Graduate | Software Engineer</br>
+					homepage: johndoe.github.pl</br>
+					repository type: Open-source</br>
+					url: github.com/johndoe</p>
+				</div>
+			</div>						
+		</div>
+	</div>
+
+</body>
+</html>
